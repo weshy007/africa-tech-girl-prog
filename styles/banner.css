@@ -1,10 +1,18 @@
 /* Set bg Image */
 .bgImage {
   height: 100vh;
-  background: url("../assets/banner.jpg");
+  background: url("../assets/bg-image.jpg");
   background-size: cover;
   position: relative;
   overflow: hidden;
+}
+.image {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  border-radius: 50%;
 }
 
 /* Make text larger*/
