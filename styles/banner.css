@@ -77,6 +77,32 @@ h6 {
   }
 }
 
+/* ABOUT SECTION  */
+/* this is where we left off, implementing text shadow in about section title */
+/* .about-title {
+  text-shadow: 5px 5px;
+} */
+
+.about-img {
+  width: 70%;
+  float: right;
+  border-radius: 50%;
+  box-shadow: 0 0 10px;
+  /* border: 10px solid rgb(128, 128, 128, 0.9); */
+  
+}
+
+.about-img:hover {
+  border: 5px solid grey;
+}
+
+.view-portfolio{
+  position: relative;
+  left: 150px;
+  top: 50px;
+}
+/* End of About Section */
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   body{
