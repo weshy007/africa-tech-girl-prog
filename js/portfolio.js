@@ -10,7 +10,7 @@ function changeText() {
 	var span = document.getElementById("output");
 	var textBox = document.getElementById("textbox");
 	
-	textbox.style.color = "red"; 
+	textBox.style.color = "red"; 
 		
 }
 
