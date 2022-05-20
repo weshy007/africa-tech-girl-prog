@@ -63,7 +63,22 @@
 
     <!-- About section start -->
     <section class="container about-me">
-        <h1 class="about-title" id="textbox">About Doe</h1>
+
+        <div class="card text-center">
+            <div class="card-header">
+              About Me
+            </div>
+            <div class="card-body">
+              <p class="card-text">I am a frontend web developer and I am currently learning more about how to style and position
+                content in an element. I think learning is awesome and I cannot wait to keep on learning more.</p>
+              <a href="#" class="btn btn-primary">View Resume</a>
+            </div>
+            <!-- <div class="card-footer text-muted">
+              2 days ago
+            </div> -->
+          </div>
+
+        <!-- <h1 class="about-title" id="textbox">About Doe</h1>
         <div class="container row">
             <div class="col">
                 <p>I am a frontend web developer and I am currently learning more about how to style and position
@@ -97,22 +112,54 @@
                 <span id="output">replace me</span>
 
             </div>
-        </div>
+        </div> -->
         
     </section>
     <!-- about section end -->
 
+    <!-- Contact section -->
+    <section class="container contact-me">
+        <div class="container" id="contact-header">
+            <h2>Contact Me</h2>
+            <p>Know where I am from, or leave me a message</p>
+        </div>
+        <div class="row" id="contact-row">
+            <div class="column" id="contact-col1">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.225072199222!2d36.794200197912346!3d-1.2905407652209293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11a903f7696b%3A0x75afd6fcf72ec080!2s6th%20Floor%2C%20Standard%20Building%2C%20Standard%20Street%2C%20Nairobi%2C%20Kenya!5e0!3m2!1sen!2ske!4v1652893700243!5m2!1sen!2ske" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="column" id="contact-col2">
+                <form action="index.html">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                    <label for="country">Country</label>
+                    <select id="contry" name="country">
+                        <option value="Kenya">Kenya</option>
+                        <option value="Tanzania">Tanzania</option>
+                        <option value="Uganda">Uganda</option>
+                        <option value="Zambia">Zambia</option>
+                        <option value="Ghana">Ghana</option>
+                    </select>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Leave me a message..."></textarea>
+                    <button type="submit" class="btn btn-info">Submit</button>
+                    
+                </form>
+            </div> 
+        </div>
+
+    </section>
+
 
     <script src="js/portfolio.js"></script>
+    <!--  -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 
